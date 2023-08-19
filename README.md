@@ -1,15 +1,13 @@
-# Потокобезопасность
+# Thread safety
+The practice of the using thread-safe classes.
 
-## Цель
-Отработка использования потокобезопасных классов.
+## Subject area
+Call center. Simulation of operator workload.
 
-## Предметная область
-Колл-центр. Имитация загруженности оператора.
-
-## Категории классов
-Классы разбиты по папкам в соответсвии с их функционалом
-| № | Папка | Назначение классов | Классы |
+## Class categories
+Classes are divided into folders according to their functionality
+| No. | Folder | Class Assignment | Classes |
 |---|---|---|---|
-| 1 | - | Интерфейсом приложения и его логика | MainWindow, MainViewModel |
-| 2 | Model | Модели данных приложения | Agent, Call, ILogger |
-| 3 | Implementation | Реализация | CallsLogger, DelegateCommand |
+| 1 | - | Application interface and its logic | MainWindow, MainViewModel |
+| 2 | Model | Application Data Models | Agent, Call, ILogger |
+| 3 | Implementation | Implementation | CallsLogger, DelegateCommand |
